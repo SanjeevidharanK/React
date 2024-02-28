@@ -2,13 +2,12 @@ import { useState } from "react";
 import { moves } from "./Player";
 let rlcount = 1;
 let rlbool = false;
-export class boolvalue {}
 let valGameboard = [
   [null, null, null],
   [null, null, null],
   [null, null, null],
 ];
-export default function GameBoard({ box, testin }) {
+export default function GameBoard({ box}) {
   const [before, after] = useState(" ");
   const [before1, after1] = useState(" ");
   const [before2, after2] = useState(" ");
