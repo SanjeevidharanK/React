@@ -12,7 +12,7 @@ function App() {
       <main>
         <ol>
           <Player name={"PLAYER--1"} symbol={"X"} />
-          <Player name={"PLAYER--2"} symbol={"O"} />
+          <Player name={"PLAYER-2"} symbol={"O"} />
         </ol>
         <GameBoard box={0} testin={boolvalue} />
         <GameBoard box={1} testin={boolvalue} />
