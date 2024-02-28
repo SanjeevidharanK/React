@@ -11,7 +11,7 @@ function App() {
       <Header />
       <main>
         <ol>
-          <Player name={"PlAYER1"} symbol={"X"} />
+          <Player name={"PLAYER1"} symbol={"X"} />
           <Player name={"PLAYER2"} symbol={"O"} />
         </ol>
         <GameBoard box={0} testin={boolvalue} />
