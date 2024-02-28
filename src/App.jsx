@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Header from "./components/Header";
 import "./App.css";
 import Player from "./components/Player";
@@ -12,9 +13,9 @@ function App() {
           <Player name={"PLAYER-1"} symbol={"X"} />
           <Player name={"PLAYER-2"} symbol={"O"} />
         </ol>
-        <GameBoard box={0}  />
-        <GameBoard box={1}  />
-        <GameBoard box={2}  />
+        <GameBoard box={0} />
+        <GameBoard box={1} />
+        <GameBoard box={2} />
       </main>
     </>
   );
