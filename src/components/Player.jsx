@@ -1,6 +1,5 @@
 import { useState } from "react"
 
-
 export class moves{
 }
 export default function Player({name,symbol}){
